@@ -1,0 +1,21 @@
+import RPi.GPIO as GPIO
+import time
+
+# Define the GPIO pin that the touch sensor is connected to
+touch_pin = 23
+
+# Set the GPIO pin as an input
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(touch_pin, GPIO.IN)
+
+# Create a loop that will continuously check the touch sensor
+while True:
+    # Read the value of the touch sensor
+    touch_value = GPIO.input(touch_pin)
+
+    # If the touch sensor is touched, print a message
+    if touch_value == 1:
+        print("Touched!")
+
+    # Wait for a second before checking the touch sensor again
+    time.sleep(1)
