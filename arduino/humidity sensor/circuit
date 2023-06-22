@@ -1,0 +1,5 @@
+The circuit connections are as follows:
+
+Connect the positive (longer) leg of the DHT11 sensor to the 5V pin on the Arduino board.
+Connect the negative (shorter) leg of the DHT11 sensor to the ground (GND) pin on the Arduino board.
+Connect the data pin of the DHT11 sensor to pin 7 on the Arduino board.
