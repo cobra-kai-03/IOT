@@ -1,0 +1,6 @@
+The circuit connections are as follows:
+
+Connect the positive (longer) leg of the LED to pin 13 on the Arduino board.
+Connect the negative (shorter) leg of the LED to the ground (GND) pin on the Arduino board.
+Connect one pin of the flame sensor to pin 8 on the Arduino board.
+Connect the other pin of the flame sensor to the ground (GND) pin on the Arduino board.
