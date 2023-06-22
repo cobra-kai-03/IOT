@@ -1,0 +1,7 @@
+The circuit connections are as follows:
+
+Connect the anode (longer leg) of the RGB LED to the 5V pin on the Arduino board.
+Connect the cathode (shorter legs) of the RGB LED to current-limiting resistors (usually around 220-470 ohms) and then to the following pins on the Arduino board:
+Connect the red leg of the RGB LED to pin 7 on the Arduino board.
+Connect the green leg of the RGB LED to pin 6 on the Arduino board.
+Connect the blue leg of the RGB LED to pin 5 on the Arduino board.
