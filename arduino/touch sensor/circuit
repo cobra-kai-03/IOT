@@ -1,0 +1,5 @@
+The circuit connections are as follows:
+
+Connect the signal pin of the sensor to pin 7 on the Arduino board.
+Connect the ground (GND) pin of the sensor to the ground (GND) pin on the Arduino board.
+Connect the power pin of the sensor to the 5V pin on the Arduino board.
