@@ -1,0 +1,15 @@
+import RPi.GPIO as GPIO
+import time
+
+flame_pin = 11
+
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(flame_pin, GPIO.IN)
+
+while True:
+    flame_value = GPIO.input(flame_pin)
+
+    if flame_value == 1:
+        print("Flame detected!")
+
+    time.sleep(1)
