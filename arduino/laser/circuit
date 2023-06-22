@@ -1,0 +1,5 @@
+Circuit connections:
+
+Connect the positive (anode) terminal of the laser module to a suitable power source (e.g., battery or external power supply). Make sure to provide the correct voltage and current required by the laser module. Check the datasheet or specifications of your specific laser module for the appropriate power requirements.
+Connect the negative (cathode) terminal of the laser module to the ground (GND) pin on the Arduino board.
+Connect the control pin (laserPin) of the laser module to pin 13 on the Arduino board.
