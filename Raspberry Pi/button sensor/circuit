@@ -1,0 +1,5 @@
+Circuit connections:
+
+Connect one terminal of the button to GPIO Pin 17.
+Connect the other terminal of the button to a pull-down resistor (typically around 10k ohms).
+Connect the other end of the pull-down resistor to the Raspberry Pi's ground (GND) pin.
