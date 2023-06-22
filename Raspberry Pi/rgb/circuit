@@ -1,0 +1,7 @@
+Circuit connections:
+
+Connect the cathode (negative) leg of the LED_ROT (red LED) to GPIO Pin 25.
+Connect the cathode (negative) leg of the LED_GRUEN (green LED) to GPIO Pin 24.
+Connect the cathode (negative) leg of the LED_BLUE (blue LED) to GPIO Pin 23.
+Connect the anode (positive) legs of all the LEDs to a current-limiting resistor (typically around 220-470 ohms).
+Connect the other end of the current-limiting resistors to the Raspberry Pi's ground (GND) pin.
