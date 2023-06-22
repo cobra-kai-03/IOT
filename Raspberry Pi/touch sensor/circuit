@@ -1,0 +1,4 @@
+Circuit connections:
+
+Connect one terminal of the touch sensor to GPIO Pin 23.
+Connect the other terminal of the touch sensor to the Raspberry Pi's ground (GND) pin.
