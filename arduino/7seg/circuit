@@ -1,0 +1,12 @@
+The circuit connections are as follows:
+
+Connect the common cathode (GND) pin of the seven-segment display to a ground (GND) pin on the Arduino board.
+Connect the individual segment pins (A, B, C, D, E, F, G) of the seven-segment display to the corresponding pins on the Arduino board, according to the pin[] array in your code. For example:
+Pin A of the seven-segment display is connected to pin 2 on the Arduino board.
+Pin B of the seven-segment display is connected to pin 3 on the Arduino board.
+Pin C of the seven-segment display is connected to pin 4 on the Arduino board.
+Pin D of the seven-segment display is connected to pin 5 on the Arduino board.
+Pin E of the seven-segment display is connected to pin 6 on the Arduino board.
+Pin F of the seven-segment display is connected to pin 7 on the Arduino board.
+Pin G of the seven-segment display is connected to pin 8 on the Arduino board.
+Make sure to adjust the connection pins in the code according to your specific wiring configuration.
