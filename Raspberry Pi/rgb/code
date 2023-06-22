@@ -1,0 +1,36 @@
+import RPi.GPIO as GPIO
+import time
+   
+GPIO.setmode(GPIO.BCM)
+   
+LED_ROT = 25
+LED_GREEN = 24
+LED_BLUE = 23
+ 
+GPIO.setup(LED_ROT, GPIO.OUT, initial= GPIO.LOW)
+GPIO.setup(LED_GRUEN, GPIO.OUT, initial= GPIO.LOW)
+GPIO.setup(LED_BLUE, GPIO.OUT, initial= GPIO.LOW)
+   
+print ("LED test [press CTRL+C to exit test]")
+  
+# main program loop
+try:
+    while True:
+        print("LED RED 3 seconds on")
+        GPIO.output(LED_ROT,GPIO.HIGH) 
+        GPIO.output(LED_GRUEN,GPIO.LOW) 
+        GPIO.output(LED_BLUE,GPIO.LOW) 
+        time.sleep(3) 
+        print("LED GREEN 3 seconds on") 
+        GPIO.output(LED_ROT,GPIO.LOW) 
+        GPIO.output(LED_GRUEN,GPIO.HIGH) 
+        GPIO.output(LED_BLUE,GPIO.LOW) 
+        time.sleep(3) 
+        print("LED BLUE 3 seconds on") 
+        GPIO.output(LED_ROT,GPIO.LOW) 
+        GPIO.output(LED_GRUEN,GPIO.LOW) 
+        GPIO.output(LED_BLUE,GPIO.HIGH) 
+        time.sleep(3) 
+   
+except KeyboardInterrupt:
+    GPIO.cleanup()
