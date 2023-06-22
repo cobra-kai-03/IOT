@@ -1,0 +1,5 @@
+Circuit connections:
+
+Connect the signal pin of the flame sensor to GPIO Pin 11.
+Connect the VCC (power supply) pin of the flame sensor to the Raspberry Pi's 3.3V or 5V pin.
+Connect the GND (ground) pin of the flame sensor to the Raspberry Pi's ground (GND) pin.
