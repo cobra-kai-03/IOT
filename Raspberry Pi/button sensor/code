@@ -1,0 +1,15 @@
+import RPi.GPIO as GPIO
+import time
+
+button_pin = 17
+
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(button_pin, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
+
+while True:
+    button_value = GPIO.input(button_pin)
+
+    if button_value == 1:
+        print("Button pressed!")
+
+    time.sleep(1)
